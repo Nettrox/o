@@ -1,6 +1,6 @@
 
 def rep(test_str, O):
-    var = 'AEIİOÖUÜaeıioüu'
+    var = 'AEIİÖUÜaeıiöüu'
     for ele in var:
         test_str = test_str.replace(ele, O)
     return test_str
